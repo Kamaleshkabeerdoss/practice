@@ -1,0 +1,48 @@
+.parent-box{
+    width: 500px;
+    height: 400px;
+    background-color: red;
+    /* position: relative; */
+    top: 50px; left: 50px;
+}
+.child-box1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.child-box2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    left: 400px; bottom: 100px;
+    
+}
+.child-box3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    left: 400px; top:100px;
+}
+.child-box4{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    }
+.right-top{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    right: 0px;
+    
+}
+.right-middle{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        position: fixed;
+        right: 0px;
+        }
